@@ -8,6 +8,6 @@ if (process.env.NODE_ENV === 'production') {
 } */
 
 export default {
-  MONGODB: process.env_MONGODB,
+  MONGODB: process.env.MONGODB,
   SECRET_KEY: process.env.SECRET_KEY
 };
