@@ -1,4 +1,4 @@
 export default {
-  MONGODB: proccess.env_MONGODB,
+  MONGODB: process.env_MONGODB,
   SECRET_KEY: process.env.SECRET_KEY
 };
