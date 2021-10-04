@@ -7,7 +7,7 @@ if (process.env.NODE_ENV === 'production') {
   module.exports = require('./dev');
 } */
 
-export const mongodb = {
+export default {
   MONGODB: proccess.env_MONGODB,
   SECRET_KEY: process.env.SECRET_KEY
 };
