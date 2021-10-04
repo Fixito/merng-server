@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 
 import typeDefs from './graphql/typeDefs.js';
 import resolvers from './graphql/resolvers/index.js';
-import './config/config.js';
+import mongodb from './config/config';
 
 const { MONGODB } = mongodb;
 
