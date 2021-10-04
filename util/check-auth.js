@@ -1,6 +1,6 @@
 import { AuthenticationError } from 'apollo-server-errors';
 import jwt from 'jsonwebtoken';
-import mongodb from '../config.js';
+import mongodb from '../config/config.js';
 
 const { SECRET_KEY } = mongodb;
 

@@ -6,7 +6,7 @@ import {
   validateRegisterInput,
   validateLoginInput
 } from '../../util/validators.js';
-import mongodb from '../../config.js';
+import mongodb from '../../config/config.js';
 import User from '../../models/User.js';
 
 const { SECRET_KEY } = mongodb;
